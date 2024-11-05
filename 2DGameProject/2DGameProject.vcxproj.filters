@@ -1,0 +1,621 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{622ef6d3-f37e-4823-a5b6-8db90d080d20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{54f487dd-ff3b-452f-8fb3-82ab81d7a6fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core">
+      <UniqueIdentifier>{0dcf7a18-14fc-4dd5-953e-239f71c0f945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core\WindowsApplication">
+      <UniqueIdentifier>{31201bc5-8ed8-459e-b182-3331ba1194bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents">
+      <UniqueIdentifier>{2d10abbe-159f-4ce2-98eb-69f73d70cf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects">
+      <UniqueIdentifier>{453870a4-f9d3-40ce-82e9-2e7446062bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\GameObject">
+      <UniqueIdentifier>{93b6b2cf-1ca2-4078-ba28-50886e34bb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\GameSystem">
+      <UniqueIdentifier>{7bde1d8d-f1f6-4a02-80e0-70c34764d94b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Core\BaseClasses">
+      <UniqueIdentifier>{8f4ded6a-865b-4c97-9c7e-f944852b255a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\AI">
+      <UniqueIdentifier>{f2fc9e3e-12c3-4eaa-9de8-0018ca36cf93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\AI\StateMachine">
+      <UniqueIdentifier>{d6eb59bb-f094-45e6-a866-6175fddb1c33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\Component">
+      <UniqueIdentifier>{212adc49-1037-4796-861b-96b602f08971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Maths">
+      <UniqueIdentifier>{0cd2114a-7367-4971-97ba-b2dcb887bfa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\SceneManger">
+      <UniqueIdentifier>{6612d52e-553a-4c1e-a403-8fd133c59e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\Scene">
+      <UniqueIdentifier>{5f3b93dc-1f89-4574-810e-163a1a88eba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{db9deb99-fb07-4878-b4e7-60c3716be4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Include">
+      <UniqueIdentifier>{e9a41e88-a514-4126-b551-9274d53d2cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\States">
+      <UniqueIdentifier>{78ef823d-7666-48bc-8946-099c780245de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\States\ActionState">
+      <UniqueIdentifier>{117cd5c1-4dd0-4803-9466-098c8ad57012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{9fa06adc-0fab-40cd-99af-9b1e427738e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Timer">
+      <UniqueIdentifier>{52c26bbe-92d0-4761-82f1-a05aecd52744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\States\ActionState\GroundedState">
+      <UniqueIdentifier>{435b7c56-8fa7-4f0f-934c-7b3411682e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player\States\ActionState\FloatingState">
+      <UniqueIdentifier>{c20887cc-b68d-4cfb-8041-63bba8c52a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Gun">
+      <UniqueIdentifier>{38c151ce-c857-460c-bbb2-3459077599cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{9fb7af5f-70bd-4dc7-acf2-bb0e30324fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\ObjectManager">
+      <UniqueIdentifier>{b6edc7a1-22f1-41a7-8ade-51f184272b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\RenderingManager">
+      <UniqueIdentifier>{e8d8c84d-fbde-48cc-a778-78728403096a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\Component\Renderer">
+      <UniqueIdentifier>{286bf474-fdc2-4357-aeb1-4cb054b7f767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\Component\GameLogic">
+      <UniqueIdentifier>{fa3fe8af-24e0-4bc4-974b-981a60209ae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Contents\Objects\Component\Physics">
+      <UniqueIdentifier>{d00d5d84-0715-4413-9efa-746417d30397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Life">
+      <UniqueIdentifier>{85b44a4f-0716-4d29-a4ee-58b74b38129d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map">
+      <UniqueIdentifier>{25dd899b-0871-40bc-9e39-744af5ca7b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\FileSystem">
+      <UniqueIdentifier>{a60368f6-2f1e-40be-897e-679c65a25afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Block">
+      <UniqueIdentifier>{7d4aa738-158d-4d31-8c60-73f938409ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Camera">
+      <UniqueIdentifier>{437a39ad-4e4d-4a99-928e-9098c0d4a881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{3074104b-8ba7-4c9b-a50f-186b4ae18c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\FloatingEnemy">
+      <UniqueIdentifier>{ff64b688-c3ab-4402-8b39-3b3b365b4855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\FloatingEnemy\States">
+      <UniqueIdentifier>{9e17015f-9977-4aac-b25c-ebeecd8e8e8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\FloatingEnemy\States\PatrolStates">
+      <UniqueIdentifier>{7f5c2405-308d-452e-aa55-ed7e2b4a9905}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\FloatingEnemy\States\DiscoveryStates">
+      <UniqueIdentifier>{66c7844d-4973-471c-aad5-a2bafbfadadb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\CrawlEnemy">
+      <UniqueIdentifier>{b6781803-0829-4c25-ac18-3668009443cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy\CrawlEnemy\States">
+      <UniqueIdentifier>{cf828c52-cbf8-4f9f-9891-1ac20572acdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Common">
+      <UniqueIdentifier>{06cef68b-840c-4787-9646-301395a71805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{b0eb6a81-d10a-4376-8453-8dcf1db3f071}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Sound">
+      <UniqueIdentifier>{bd059564-b0ac-4282-ba92-284abfa96087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI\Animation">
+      <UniqueIdentifier>{ab8940ca-2a1d-438c-969f-90ceb2a889d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Animation">
+      <UniqueIdentifier>{52753996-c584-4556-9747-5812fc9fa4dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Program\Systems\Application\WindowsApplication\WindowsApplication.cpp">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Application\WindowsApplication\WinMain.cpp">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\GameSystem\GameSystem.cpp">
+      <Filter>Systems\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\SceneManager\SceneManager.cpp">
+      <Filter>Systems\SceneManger</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerRootState.cpp">
+      <Filter>Game\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerActionState.cpp">
+      <Filter>Game\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Input\GamePad.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Timer\Timer.cpp">
+      <Filter>Systems\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerGroundedState.cpp">
+      <Filter>Game\Player\States\ActionState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerFloatingState.cpp">
+      <Filter>Game\Player\States\ActionState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerActionEvent.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerWalkState.cpp">
+      <Filter>Game\Player\States\ActionState\GroundedState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerIdleState.cpp">
+      <Filter>Game\Player\States\ActionState\GroundedState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerJumpState.cpp">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerFallState.cpp">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerFloatingEnterState.cpp">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerFireState.cpp">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Gun\Gun.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Scene\Scene.cpp">
+      <Filter>Systems\Contents\Objects\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Scene\TitleScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Scene\MainGameScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\ObjectManager\GameObjectManager.cpp">
+      <Filter>Systems\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\BaseClasses\Object.cpp">
+      <Filter>Systems\Core\BaseClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\RenderingManager\RenderingManager.cpp">
+      <Filter>Systems\RenderingManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\Transform.cpp">
+      <Filter>Systems\Contents\Objects\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\RectRenderer.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\Script.cpp">
+      <Filter>Systems\Contents\Objects\Component\GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Gun\Bullet.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\WidgetRenderer.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Gun\GunUI.cpp">
+      <Filter>Game\Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Life\Life.cpp">
+      <Filter>Game\Life</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Life\LifeUI.cpp">
+      <Filter>Game\Life</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Map\Map2DSponer.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\FileSystem\FileSystem.cpp">
+      <Filter>Systems\FileSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Block\NormalBlock.cpp">
+      <Filter>Game\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Application\WindowsApplication\WindowsWindow.cpp">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\Camera.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Camera\FollowCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\BoxCollider.cpp">
+      <Filter>Systems\Contents\Objects\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Maths\Vector2.cpp">
+      <Filter>Systems\Contents\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\EnemyManager.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Block\BreakBlock.cpp">
+      <Filter>Game\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Map\Map2DTitleSponer.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerStepState.cpp">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemy.cpp">
+      <Filter>Game\Enemy\FloatingEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemyRootState.cpp">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemyPatrolState.cpp">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemyIdleState.cpp">
+      <Filter>Game\Enemy\FloatingEnemy\States\PatrolStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemyMovementState.cpp">
+      <Filter>Game\Enemy\FloatingEnemy\States\PatrolStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\FloatingEnemyDiscoveryState.cpp">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\SpriteRenderer.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\CrawlEnemy.cpp">
+      <Filter>Game\Enemy\CrawlEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\CrawlEnemyRootState.cpp">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\CrawlEnemyMovementState.cpp">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Enemy\CrawlEnemyIdleState.cpp">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Scene\GameClearScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Map\Map2DResultSponer.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\TextMeshRenderer.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Player\PlayerDeathState.cpp">
+      <Filter>Game\Player\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\UI\GameOverUI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Contents\Objects\Component\TextRenderer.cpp">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Systems\Sound\SoundManager.cpp">
+      <Filter>Systems\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\UI\WaveAnimation.cpp">
+      <Filter>Game\UI\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Camera\ShakeCamera.cpp">
+      <Filter>Game\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Map\MapLevelChecker.cpp">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Program\Game\Animation\Slide.cpp">
+      <Filter>Game\Animation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Program\Systems\Application\WindowsApplication\WindowsApplication.h">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\GameSystem\GameSystem.h">
+      <Filter>Systems\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Typedef\Typedef.h">
+      <Filter>Systems\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Generic\GameObject.h">
+      <Filter>Systems\Contents\Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\BaseClasses\Object.h">
+      <Filter>Systems\Core\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\AI\StateMachine\HFSM.h">
+      <Filter>Systems\Contents\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\AI\StateMachine\IStateMachine.h">
+      <Filter>Systems\Contents\AI\StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\BaseClasses\Component.h">
+      <Filter>Systems\Core\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Generic\GameObjectHeader.h">
+      <Filter>Systems\Contents\Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Maths\Vector2.h">
+      <Filter>Systems\Contents\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Maths\Color.h">
+      <Filter>Systems\Contents\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Maths\Easing.h">
+      <Filter>Systems\Contents\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\SceneManager\SceneManager.h">
+      <Filter>Systems\SceneManger</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Scene\Scene.h">
+      <Filter>Systems\Contents\Objects\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Scene\SceneHeader.h">
+      <Filter>Systems\Contents\Objects\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\GameObject\Character.h">
+      <Filter>Systems\Contents\Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Include\ObjectInclude.h">
+      <Filter>Game\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Include\AIInclude.h">
+      <Filter>Game\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerRootState.h">
+      <Filter>Game\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerActionState.h">
+      <Filter>Game\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Include\MathInclude.h">
+      <Filter>Game\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Input\GamePad.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Timer\Timer.h">
+      <Filter>Systems\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Include\SystemInclude.h">
+      <Filter>Game\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerDefinition.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerGroundedState.h">
+      <Filter>Game\Player\States\ActionState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerFloatingState.h">
+      <Filter>Game\Player\States\ActionState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerActionEvent.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerWalkState.h">
+      <Filter>Game\Player\States\ActionState\GroundedState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerIdleState.h">
+      <Filter>Game\Player\States\ActionState\GroundedState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerJumpState.h">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerFallState.h">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerFloatingEnterState.h">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerFireState.h">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\GameObject\Item.h">
+      <Filter>Systems\Contents\Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Gun\Gun.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Scene\TitleScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Scene\MainGameScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\ObjectManager\GameObjectManager.h">
+      <Filter>Systems\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\RenderingManager\RenderingManager.h">
+      <Filter>Systems\RenderingManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\BaseClasses\Renderer.h">
+      <Filter>Systems\Core\BaseClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\Script.h">
+      <Filter>Systems\Contents\Objects\Component\GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\Transform.h">
+      <Filter>Systems\Contents\Objects\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\RectRenderer.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Gun\Bullet.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\WidgetRenderer.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\GameObject\Widget.h">
+      <Filter>Systems\Contents\Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Gun\GunUI.h">
+      <Filter>Game\Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Life\Life.h">
+      <Filter>Game\Life</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Life\LifeUI.h">
+      <Filter>Game\Life</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Map\Map2DDefinition.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Map\Map2DSponer.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\FileSystem\FileSystem.h">
+      <Filter>Systems\FileSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Block\Block.h">
+      <Filter>Game\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Block\NormalBlock.h">
+      <Filter>Game\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Application\WindowsApplication\WindowsWindow.h">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Application\WindowsApplication\WindowsWindowDefinition.h">
+      <Filter>Systems\Core\WindowsApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\Camera.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Camera\FollowCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\BoxCollider.h">
+      <Filter>Systems\Contents\Objects\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\EnemyManager.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Block\BreakBlock.h">
+      <Filter>Game\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Map\Map2DTitleSponer.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerStepState.h">
+      <Filter>Game\Player\States\ActionState\FloatingState</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemy.h">
+      <Filter>Game\Enemy\FloatingEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemyRootState.h">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemyPatrolState.h">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemyIdleState.h">
+      <Filter>Game\Enemy\FloatingEnemy\States\PatrolStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemyMovementState.h">
+      <Filter>Game\Enemy\FloatingEnemy\States\PatrolStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\FloatingEnemyDiscoveryState.h">
+      <Filter>Game\Enemy\FloatingEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\SpriteRenderer.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\CrawlEnemy.h">
+      <Filter>Game\Enemy\CrawlEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\CrawlEnemyRootState.h">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Common\GameDefinition.h">
+      <Filter>Game\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\CrawlEnemyMovementState.h">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\EnemyDefinition.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Enemy\CrawlEnemyIdleState.h">
+      <Filter>Game\Enemy\CrawlEnemy\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Scene\GameClearScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Map\Map2DResultSponer.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\TextMeshRenderer.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Player\PlayerDeathState.h">
+      <Filter>Game\Player\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\UI\GameOverUI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Contents\Objects\Component\TextRenderer.h">
+      <Filter>Systems\Contents\Objects\Component\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Systems\Sound\SoundManager.h">
+      <Filter>Systems\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\UI\WaveAnimation.h">
+      <Filter>Game\UI\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Camera\ShakeCamera.h">
+      <Filter>Game\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Map\MapLevelChecker.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Program\Game\Animation\Slide.h">
+      <Filter>Game\Animation</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
